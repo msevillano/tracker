@@ -30,8 +30,8 @@ cp .env.example .env     # Copy and edit environment variables
 
 ## Env Vars
 
--MIN_DISTANCE_TRIP: distance in M that a vehicle has to move in order to be considered a trip
--SLEEP_TIME: time between API calls
--MONGO_URI: database url (if using docker-compose remove this, since its pased over the docker compose)
--DATA_PROVIDER: url to search vehicle info
--DATA_PROVIDER_ACCESS_TOKEN: authentication to required by data provider (dont put the word bearer)
+- MIN_DISTANCE_TRIP: distance in M that a vehicle has to move in order to be considered a trip
+- SLEEP_TIME: time between API calls
+- MONGO_URI: database url (if using docker-compose remove this, since its pased over the docker compose)
+- DATA_PROVIDER: url to search vehicle info
+- DATA_PROVIDER_ACCESS_TOKEN: authentication to required by data provider (dont put the word bearer)
